@@ -1,0 +1,11 @@
+apply plugin: 'java'
+
+dependencies {
+    compile 'com.github.mvarnagiris:mvp:162ade81a4'
+
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.mockito:mockito-core:2.0.99-beta'
+}
+
+sourceCompatibility = "1.8"
+targetCompatibility = "1.8"
